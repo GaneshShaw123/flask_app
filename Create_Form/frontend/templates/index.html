@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="centered">
+    <form action="/submit" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your Password">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <a href="get_data"><button>View data</button></a>
+    </div>
+    <style>
+        .centered{
+            margin: auto;
+            width: 50%;
+            border: 3PX solid green;
+            padding: 10px;
+        }
+    </style>
+</body>
+</html>
